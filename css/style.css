@@ -24,10 +24,6 @@ header{
     height: 1000px;
     background: url('../img/picture.png') no-repeat center top/cover;
 }
-.header-inner{
-    display: flex;
-    justify-content:space-between;
-}
 .header-logo a{
     color: #fff;
     text-decoration: none;
@@ -47,8 +43,7 @@ header{
     margin: 40px 15px;
 	border-bottom: 3px solid transparent;
     transition: all .3s;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .menu a:hover{
     color: #fce38a;
@@ -59,11 +54,6 @@ header{
 }
 .slider{
     margin-top: 80px;
-}
-.slider-item{
-    width: 850px;
-    margin: 0 auto;
-    text-align: center;
 }
 .slider-title{
     font-family: 'Kaushan Script', cursive;
@@ -97,10 +87,6 @@ header{
     color: #fff;
     text-decoration: none;
 }
-.slider-inner{
-    display: flex;
-    justify-content: space-between;
-}
 .slider-dots{
     border-top: 3px solid #fff;
     padding-top: 25px;
@@ -118,53 +104,20 @@ header{
     bottom: 28px;
     z-index: 5;
 }
-.about-content,
-.work-content,
-.design-content,
-.service-content,
-.team-content,
-.works-content,
-.blog-content,
-.clients-content,
-.map-content{
-    margin: 0 auto;
-    text-align: center;
-}
-.about-title,
-.work-title,
-.design-title,
-.service-title,
-.team-title,
-.works-title,
-.clients-title,
-.blog-title{
+.title{
     padding-top: 95px;
     margin-bottom: 5px;
     color:#333333;
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
 }
-.about-subtitle,
-.work-subtitle,
-.design-subtitle,
-.service-subtitle,
-.team-subtitle,
-.works-subtitle,
-.clients-subtitle,
-.blog-subtitle{
+.subtitle{
     color:#333333;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
 }
-.about-subtitle::after,
-.work-subtitle::after,
-.design-subtitle::after,
-.service-subtitle::after,
-.team-subtitle::after,
-.works-subtitle::after,
-.clients-subtitle::after,
-.blog-subtitle::after{
+.subtitle::after{
     content: '';
     width: 60px;
     height: 3px;
@@ -172,15 +125,19 @@ header{
     margin: 40px auto;
     display: block;
 }
-.about-text,
-.service-text,
-.team-text,
-.works-text{
-    margin: 0 auto;
-    width: 960px;
-    color:#999999;
+.item-title{
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text{
+    color: #999;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+}
+.item{
+    margin: 0 auto;
+    width: 960px;
     margin-bottom: 95px;
 }
 .about-image,
@@ -197,18 +154,11 @@ header{
     position: absolute;
     top: -10px;
     left: 5px;
-    text-align: center;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     visibility: hidden;
     width: 100%;
     height: 100%;
-    margin: 0 auto;
 }
-.about-image__hover img {
-    margin: 0 auto;   
-  }
 .about-image__hover span {
     font-size: 18px;
     font-weight: bold;
@@ -220,6 +170,7 @@ header{
     width: 380px;
     margin: 0 auto;
 }
+
 .number{
     margin: 110px 0 0;
     background: #95e1d3;
@@ -235,10 +186,6 @@ header{
 .number-bold{
     font-size: 72px;
     font-weight: bold;
-    text-align: center;
-}
-.number-text{
-    text-align: center;
 }
 .work{
     margin-bottom: 120px;
@@ -246,26 +193,16 @@ header{
 .work-item{
     width: 280px;
 }
-.work-item__title{
-    color: #333;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.work-item__text{
-    color: #999;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-}
 .work hr{
     height: 2px;
     margin: 50px 0;
 }
+
 .design{
     height: 850px;
     background: url('../img/Layer8545.png') no-repeat center top/cover;
 }
-.design-subtitle::after{
+.design .subtitle::after{
     margin-bottom: 10px;
 }
 .design-photo{
@@ -286,12 +223,7 @@ header{
     cursor: pointer;
     display: block;
 }
-.service-item__text{
-    color: #333;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.service-item__text img{
+.service-item img{
     padding: 15px;
 }
 .service-item__content{
