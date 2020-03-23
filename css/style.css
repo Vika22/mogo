@@ -1,4 +1,4 @@
 /* final */
-@import "base.css";
-@import "layout.css";
-@import "modules.css";
+@import "../css/base.css";
+@import "../css/layout.css";
+@import "../css/modules.css";
