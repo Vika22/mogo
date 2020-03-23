@@ -31,59 +31,6 @@ header{
 .menu li + li{
 	padding-left: 10px;
 }
-.slider{
-    margin-top: 80px;
-}
-.slider-title{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 72px;
-}
-.slider-text{
-    font-size: 150px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1;
-}
-.slider-text::after{
-    content: '';
-    width: 60px;
-    height: 3px;
-    background-color: #fff;
-    margin: 50px auto;
-    display: block;
-}
-.slider-btn{
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-    border: 3px solid #fff;
-    padding: 10px 30px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 155px;
-}
-.slider-btn:hover{
-    color: #fff;
-    text-decoration: none;
-}
-.slider-dots{
-    border-top: 3px solid #fff;
-    padding-top: 25px;
-    text-transform: uppercase;
-    width: 280px;
-    font-size: 24px;
-}
-.active-pink:before {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 3px;
-    background-color: #f38181;
-    position: relative;
-    bottom: 28px;
-    z-index: 5;
-}
-
 
 
 /* footer */
