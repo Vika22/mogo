@@ -14,24 +14,44 @@
 
 <body>
     <header>
-        <div class="container d-flex justify-content-between">
-            <div class="header-logo">
-                <a href="#">
-                    MoGo
-                </a>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#"><img src="img/SHOPPING CART.png" alt=""></a></li>
-                    <li><a href="#"><img src="img/MAGNIFYING GLASS.png" alt=""></a></li>
-                </ul>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  navbar-light ">
+                <div class="header-logo">
+                    <a href="#">
+                        MoGo
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav  menu">
+                        <a class="nav-item " href="#">About </a>
+                        <a class="nav-item" href="#">Service</a>
+                        <a class="nav-item " href="#">Work</a>
+                        <a class="nav-item " href="#">Blog</a>
+                        <a class="nav-item " href="#">Contact</a>
+                        <a class="nav-item " href="#"><img src="img/SHOPPING CART.png" alt=""></a>
+                        <a class="nav-item " href="#"><img src="img/MAGNIFYING GLASS.png" alt=""></a>
+                    </div>
+                </div>
             </nav>
         </div>
+        <!-- <div class="container d-flex justify-content-between"></div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><img src="img/SHOPPING CART.png" alt=""></a></li>
+                <li><a href="#"><img src="img/MAGNIFYING GLASS.png" alt=""></a></li>
+            </ul>
+        </nav>
+        </div> -->
         <div class="container ">
             <div class="header-content text-center">
                 <div class="header-title">
@@ -44,7 +64,7 @@
                     Learn more
                 </a>
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="pl-3 pr-3 d-flex justify-content-between">
                 <div class="header-dots active-pink">
                     <b>01</b> intro
                 </div>
@@ -76,27 +96,27 @@
                 aliquip ex ea commodo consequat.
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col mb-4">
                     <div class="image-bg">
-                        <img src="img/Layer344.png" alt="">
+                        <img src="img/Layer344.png" class="image-bg__img">
                         <div class="image-bg__hover d-flex justify-content-center flex-column text-center">
                             <img src="img/USERS.png" class="align-self-center">
                             <span>Super Team</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col mb-4">
                     <div class="image-bg">
-                        <img src="img/Layer39.png" alt="">
+                        <img src="img/Layer39.png" class="image-bg__img">
                         <div class="image-bg__hover d-flex justify-content-center flex-column text-center">
                             <img src="img/USERS.png" class="align-self-center">
                             <span>Super Team</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col mb-4">
                     <div class="image-bg">
-                        <img src="img/Layer41.png" alt="">
+                        <img src="img/Layer41.png" class="image-bg__img">
                         <div class="image-bg__hover d-flex justify-content-center flex-column text-center">
                             <img src="img/USERS.png" class="align-self-center">
                             <span>Super Team</span>
@@ -109,7 +129,7 @@
     <section class="number">
         <div class="container">
             <div class="row">
-                <div class="col-md number-content text-center">
+                <div class="col number-content text-center">
                     <div class="number-bold">
                         42
                     </div>
@@ -117,7 +137,7 @@
                         web design progect
                     </div>
                 </div>
-                <div class="col-md number-content text-center">
+                <div class="col number-content text-center">
                     <div class="number-bold">
                         123
                     </div>
@@ -125,7 +145,7 @@
                         happy client
                     </div>
                 </div>
-                <div class="col-md number-content text-center">
+                <div class="col number-content text-center">
                     <div class="number-bold">
                         15
                     </div>
@@ -133,7 +153,7 @@
                         award winner
                     </div>
                 </div>
-                <div class="col-md number-content text-center">
+                <div class="col number-content text-center">
                     <div class="number-bold">
                         99
                     </div>
@@ -141,7 +161,7 @@
                         cup of coffee
                     </div>
                 </div>
-                <div class="col-md number-content text-center">
+                <div class="col number-content text-center">
                     <div class="number-bold">
                         24
                     </div>
@@ -161,35 +181,35 @@
                 amazing services
             </div>
             <div class="row">
-                <div class="col-md-4 d-flex justify-content-around align-items-start">
-                    <img src="img/ALARM.png" class="mt-1">
+                <div class="col-md-4 col-sm-4 d-flex justify-content-around align-items-start">
+                    <img src="img/ALARM.png" class="mt-1 mr-2">
                     <div class="work-item">
                         <div class="item-title mb-3">
                             Photography
                         </div>
-                        <div class="text">
+                        <div class="text mb-3">
                             Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-around align-items-start">
-                    <img src="img/LINE GRAPH.png" class="mt-1">
+                <div class="col-md-4 col-sm-4 d-flex justify-content-around align-items-start">
+                    <img src="img/LINE GRAPH.png" class="mt-1 mr-2">
                     <div class="work-item">
                         <div class="item-title mb-3">
                             Web Design
                         </div>
-                        <div class="text">
+                        <div class="text mb-3">
                             Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-around align-items-start">
-                    <img src="img/COMPUTER _ OK.png" class="mt-1">
+                <div class="col-md-4 col-sm-4 d-flex justify-content-around align-items-start">
+                    <img src="img/COMPUTER _ OK.png" class="mt-1 mr-2">
                     <div class="work-item">
                         <div class="item-title mb-3">
                             Creativity
                         </div>
-                        <div class="text">
+                        <div class="text mb-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                         </div>
                     </div>
@@ -197,35 +217,35 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-4 d-flex justify-content-around align-items-start">
-                    <img src="img/BOOK 2.png" class="mt-1">
+                <div class="col-md-4 col-sm-4 d-flex justify-content-around align-items-start">
+                    <img src="img/BOOK 2.png" class="mt-1 mr-2">
                     <div class="work-item">
                         <div class="item-title mb-3">
                             Seo
                         </div>
-                        <div class="text">
+                        <div class="text mb-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-around align-items-start">
-                    <img src="img/HOME.png" class="mt-1">
+                <div class="col-md-4 col-sm-4 d-flex justify-content-around align-items-start">
+                    <img src="img/HOME.png" class="mt-1 mr-2">
                     <div class="work-item">
                         <div class="item-title mb-3">
                             Css/Html
                         </div>
-                        <div class="text">
+                        <div class="text mb-3">
                             Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-around align-items-start">
-                    <img src="img/IMAGE.png" class="mt-1">
+                <div class="col-md-4 col-sm-4 d-flex justify-content-around align-items-start">
+                    <img src="img/IMAGE.png" class="mt-1 mr-2">
                     <div class="work-item">
                         <div class="item-title mb-3">
                             Digital
                         </div>
-                        <div class="text">
+                        <div class="text mb-3">
                             Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                         </div>
                     </div>
@@ -262,10 +282,10 @@
                 aliquip ex ea commodo consequat.
             </div>
             <div class="row">
-                <div class="col-lg-6">
-                    <img src="img/Layer 43.png">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="img/Layer 43.png" class="service__image mb-3">
                 </div>
-                <div class="col-lg-6" id="active-div">
+                <div class="col-lg-6 col-md-12 col-sm-12" id="active-div">
                     <div class="service-item  active">
                         <div class="item-title">
                             <img src="img/PICTURE1.png" alt="">
@@ -391,9 +411,9 @@
                 aliquip ex ea commodo consequat.
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="image-bg">
-                        <img src="img/Layer 16.png" alt="">
+                        <img src="img/Layer 16.png" class="image-bg__img">
                         <div class="image-bg__hover d-flex justify-content-center h align-items-center">
                             <div class="team-icon icon-facebook"></div>
                             <div class="team-icon icon-twitter"></div>
@@ -410,9 +430,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="image-bg">
-                        <img src="img/Layer 19.png" alt="">
+                        <img src="img/Layer 19.png" class="image-bg__img">
                         <div class="image-bg__hover d-flex justify-content-center h align-items-center">
                             <div class="team-icon icon-facebook"></div>
                             <div class="team-icon icon-twitter"></div>
@@ -429,9 +449,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="image-bg">
-                        <img src="img/Layer 18.png" alt="">
+                        <img src="img/Layer 18.png" class="image-bg__img">
                         <div class="image-bg__hover d-flex justify-content-center h align-items-center">
                             <div class="team-icon icon-facebook"></div>
                             <div class="team-icon icon-twitter"></div>
@@ -453,7 +473,7 @@
     </section>
     <section class="icons">
         <div class="container ">
-            <img src="img/Layer 25.png" alt="">
+            <img src="img/Layer 25.png" class="icons__image">
         </div>
     </section>
     <section class="works">
@@ -475,7 +495,7 @@
         <div class="d-flex">
             <div class="container-fluid p-0 m-0">
                 <div class="row no-gutters">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="row no-gutters">
                             <div class="col-lg-12 work-job__item">
                                 <img class="work-job__image" src="img/Layer 26.png">
@@ -503,7 +523,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="row no-gutters">
                             <div class="col-lg-12 work-job__item">
                                 <img class="work-job__image" src="img/Layer 33.png">
@@ -531,7 +551,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="work-job__item">
                             <img class="work-job__image" src="img/Layer 34.png">
                             <div class="work-job__image-hover">
@@ -545,7 +565,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="row no-gutters">
                             <div class="col-lg-12 work-job__item">
                                 <img class="work-job__image" src="img/Layer 31.png">
@@ -633,10 +653,10 @@
                 What people say
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 ">
                     <div class="clients-item d-flex">
                         <div class="clients-photo">
-                            <img src="img/Layer 47.png" alt="">
+                            <img src="img/Layer 47.png" class="clients__image">
                         </div>
                         <div class="clients-text">
                             <div class="item-title">
@@ -654,10 +674,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="clients-item d-flex">
                         <div class="clients-photo">
-                            <img src="img/Layer 49.png" alt="">
+                            <img src="img/Layer 49.png" class="clients__image">
                         </div>
                         <div class="clients-text">
                             <div class="item-title">
@@ -674,10 +694,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="clients-item d-flex">
                         <div class="clients-photo">
-                            <img src="img/Layer 50.png" alt="">
+                            <img src="img/Layer 50.png" class="clients__image">
                         </div>
                         <div class="clients-text">
                             <div class="item-title">
@@ -694,10 +714,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="clients-item d-flex">
                         <div class="clients-photo">
-                            <img src="img/Layer 51.png" alt="">
+                            <img src="img/Layer 51.png" class="clients__image">
                         </div>
                         <div class="clients-text">
                             <div class="item-title">
@@ -726,8 +746,8 @@
                 Latest blog
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="img/Layer 54.png" class="mb-3">
+                <div class="col-lg-4 col-md-4 mb-3">
+                    <img src="img/Layer 54.png" class="blog__image mb-3">
                     <div class="blog-date">
                         15
                         <div class="blog-date__month">
@@ -750,8 +770,8 @@
                         17
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="img/Layer 55.png" class="mb-3">
+                <div class="col-lg-4 col-md-4 mb-3">
+                    <img src="img/Layer 55.png" class="blog__image mb-3">
                     <div class="blog-date">
                         14
                         <div class="blog-date__month">
@@ -774,8 +794,8 @@
                         42
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="img/Layer 57.png" class="mb-3">
+                <div class="col-lg-4 col-md-4 mb-3">
+                    <img src="img/Layer 57.png" class="blog__image mb-3">
                     <div class="blog-date">
                         12
                         <div class="blog-date__month">
@@ -814,7 +834,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 mb-5">
                     <div class="footer-container">
                         <div class="footer-title">
                             MoGo
@@ -852,7 +872,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 mb-3">
                             <div class="footer-subtitle">
                                 blogs
                             </div>
@@ -896,7 +916,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 mb-3">
                             <div class="footer-subtitle">
                                 instagram
                             </div>
